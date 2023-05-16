@@ -25,4 +25,4 @@ Step 1: Post message in the chat notfying everyone which files you are/will be w
 
 Step 2: After completeing you work do a commit with a description and then push it to the main branch.
 
-Step 3: Update your post in the chat syaing you have finished working on your files.
+Step 3: Update your post in the chat saying you have finished working on your files.

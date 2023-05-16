@@ -66,7 +66,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 }
@@ -538,17 +538,17 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	color: #4169e1;
+	color: #3580C2;
 }
 
 a:visited {
-	color: #800080;
+	/*color: #800080;*/
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #191970;
+	color: #E0ECF9;
 }
 
 a:focus {
@@ -655,20 +655,20 @@ textarea {
 .main-navigation {
 	display: block;
 	width: 100%;
-	background-color: #1B325F;
 }
 
 	.main-navigation ul {
 		display: none;
 		list-style: none;
 		margin: 0;
-		padding-left: 0;
+		padding: 0px;
 	}
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	position: absolute;
+	padding-right: 15px;
 	top: 100%;
 	left: -999em;
 	z-index: 99999;
@@ -676,6 +676,7 @@ textarea {
 
 .main-navigation ul ul ul {
 	left: -999em;
+	padding-right: 15px;
 	top: 0;
 }
 
@@ -696,6 +697,11 @@ textarea {
 
 .main-navigation li {
 	position: relative;
+	padding: 20px;
+}
+
+.main-navigation li:hover {
+	background-color: #E1A778;
 }
 
 .main-navigation a {
@@ -763,7 +769,7 @@ body{
 	padding-bottom: 10px;
 	margin: auto;
 	text-align: left;
-	background-color: #1B325F;
+	/*background-color: #1B325F;*/
 	color: #c46d1c;
 }
 
@@ -990,4 +996,32 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+/* Header
+--------------------------------------------- */
+.site-header {
+	display: block;
+	background-color: #C07144 !important; 
+	float: left;
+	width: 100%;
+}
+
+.site-title {
+	display: block;
+	color: #111;
+}
+
+.site-branding {
+	display: block;
+	float: left;
+	padding: 1%;
+	width: 15%;
+}
+
+.header-left-side {
+	display: block;
+	float: left;
+	background-color: #C07144; 
+	width: 80%;
 }

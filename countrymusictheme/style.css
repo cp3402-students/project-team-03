@@ -540,6 +540,7 @@ table {
 --------------------------------------------- */
 a {
 	color: #3580C2;
+	text-decoration: none;
 }
 
 a:visited {
@@ -925,15 +926,29 @@ body{
 	display: none;
 }
 
-/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
+/* Footer
+--------------------------------------------- */
 .infinity-end.neverending .site-footer {
 	display: block;
 }
 .site-footer {
-	background-color: #1B325F;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center !important;
+	background-color: #122C4A;
+	color: #fff !important;
 }
-#site-footer {
-	background-color: #1B325F;
+
+.site-footer a {
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.site-footer a:hover {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
 }
 
 /*--------------------------------------------------------------

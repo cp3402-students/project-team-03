@@ -16,13 +16,13 @@
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'countrymusictheme' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Townsville Jazz Club' ), 'WordPress' );
+				printf( esc_html__( 'Powered By Wordpress' ), 'WordPress' );
 				?>
 			</a>
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Townsville Jazz Club'));
+				bloginfo( 'name'); ;
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

@@ -420,6 +420,7 @@ h4,
 h5,
 h6 {
 	clear: both;
+	color: #241A1A;
 }
 
 p {
@@ -545,10 +546,13 @@ a:visited {
 	/*color: #800080;*/
 }
 
-a:hover,
 a:focus,
 a:active {
 	color: #E0ECF9;
+}
+
+a:hover {
+	color: #2861A2;
 }
 
 a:focus {
@@ -697,16 +701,26 @@ textarea {
 
 .main-navigation li {
 	position: relative;
+	display: block;
 	padding: 20px;
 }
 
 .main-navigation li:hover {
-	background-color: #E1A778;
+	background-color: #70A2DB;
 }
 
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	color: #111;
+	font-weight: 500;
+}
+
+.main-navigation a:hover {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
 }
 
 /* Small menu. */
@@ -770,7 +784,7 @@ body{
 	margin: auto;
 	text-align: left;
 	/*background-color: #1B325F;*/
-	color: #c46d1c;
+	color: #111;
 }
 
 
@@ -1002,7 +1016,7 @@ body{
 --------------------------------------------- */
 .site-header {
 	display: block;
-	background-color: #C07144 !important; 
+	background-color: #B8D1ED !important; 
 	float: left;
 	width: 100%;
 }
@@ -1022,6 +1036,6 @@ body{
 .header-left-side {
 	display: block;
 	float: left;
-	background-color: #C07144; 
+	background-color: #B8D1ED; 
 	width: 80%;
 }

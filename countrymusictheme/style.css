@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 /*!
 Theme Name: CountryMusicTheme
 Theme URI: http://underscores.me/
@@ -99,6 +100,7 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
+	font-family: 'Lemon', cursive;
 	font-size: 2em;
 	margin: 0.67em 0;
 }
@@ -420,6 +422,7 @@ h3,
 h4,
 h5,
 h6 {
+	font-family: 'Lemon', cursive;
 	clear: both;
 	color: #241A1A;
 }
@@ -788,6 +791,10 @@ body{
 	padding-bottom: 10px;
 	text-align: left;
 	color: #111;
+}
+
+.page .entry-title {
+	display: none;
 }
 
 .page-template-default {

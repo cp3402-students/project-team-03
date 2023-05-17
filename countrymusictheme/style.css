@@ -48,7 +48,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Accessibility
 	- Alignments
 
-	
+
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -660,7 +660,10 @@ textarea {
 --------------------------------------------- */
 .main-navigation {
 	display: block;
-	width: 100%;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 }
 
 	.main-navigation ul {
@@ -672,7 +675,6 @@ textarea {
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
 	position: absolute;
 	padding-right: 15px;
 	top: 100%;
@@ -705,6 +707,7 @@ textarea {
 	position: relative;
 	display: block;
 	padding: 20px;
+	text-align: center;
 }
 
 .main-navigation li:hover {
@@ -1050,6 +1053,7 @@ body{
 --------------------------------------------- */
 .site-header {
 	display: block;
+	padding-top: 20px;
 	background-color: #B8D1ED !important; 
 	float: left;
 	width: 100%;
@@ -1062,14 +1066,15 @@ body{
 
 .site-branding {
 	display: block;
-	float: left;
-	padding: 1%;
+	margin-left: auto;
+  	margin-right: auto;
 	width: 15%;
 }
 
 .header-left-side {
 	display: block;
 	float: left;
+	text-align: center;
 	background-color: #B8D1ED; 
-	width: 80%;
+	width: 100%;
 }

@@ -5,17 +5,10 @@ Theme Name: CountryMusicTheme
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
-Description: Description
+Description: A simple website theme with a light colours scheme designed for the Townsville and Thuringowa Country Music Association.
 Version: 1.0.0
-Tested up to: 5.4
-Requires PHP: 5.6
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: countrymusictheme
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
 
 CountryMusicTheme is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
@@ -666,6 +659,8 @@ textarea {
 .main-navigation {
 	display: block;
 	width: 95%;
+	padding-right: 2%;
+	padding-left: 2%;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -1013,6 +1008,36 @@ body{
 	display: none;
 }
 
+/* Header
+--------------------------------------------- */
+.site-header {
+	display: block;
+	padding-top: 20px;
+	background-color: #B8D1ED !important; 
+	float: left;
+	width: 100%;
+}
+
+.site-title {
+	display: block;
+	color: #111;
+}
+
+.site-branding {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	width: 10%;
+}
+
+.header-left-side {
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #B8D1ED; 
+	width: 100%;
+}
+
 /* Footer
 --------------------------------------------- */
 .infinity-end.neverending .site-footer {
@@ -1040,14 +1065,13 @@ body{
 
 .site-footer-top a {
 	text-decoration: none;
-	font-weight: 500;
-	color: #111 !important;
+	font-weight: bold;
+	color: #111 !important; 
 }
 
 .site-footer-top a:hover {
 	text-decoration: none;
 	color: #fff !important;
-	font-weight: 500;
 }
 
 .site-footer-coloumn {
@@ -1057,13 +1081,48 @@ body{
 	padding-right: 20px;
 	width: 23%;
 }
+
+@media screen and (max-width: 1025px) {
+
+	.site-footer-coloumn {
+		display: inline-block;
+		vertical-align: top;
+		text-align: left !important;
+		padding-right: 20px;
+		width: 46%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.site-footer-coloumn {
+		display: inline-block;
+		vertical-align: top;
+		text-align: left !important;
+		padding-right: 20px;
+		width: 100%;
+	}
+}
+
 .site-footer-coloumn-long {
 	display: inline-block;
 	vertical-align: top;
 	text-align: left !important;
 	padding-right: 20px;
-	width: 46%;
+	width: 53%;
 }
+
+@media screen and (max-width: 1025px) {
+
+	.site-footer-coloumn-long {
+		display: inline-block;
+		vertical-align: top;
+		text-align: left !important;
+		padding-right: 20px;
+		width: 100%;
+	}
+}
+
 
 .site-footer-bottom {
 	display: inline-block;
@@ -1160,34 +1219,4 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
-}
-
-/* Header
---------------------------------------------- */
-.site-header {
-	display: block;
-	padding-top: 20px;
-	background-color: #B8D1ED !important; 
-	float: left;
-	width: 100%;
-}
-
-.site-title {
-	display: block;
-	color: #111;
-}
-
-.site-branding {
-	display: block;
-	margin-left: auto;
-  	margin-right: auto;
-	width: 15%;
-}
-
-.header-left-side {
-	display: block;
-	float: left;
-	text-align: center;
-	background-color: #B8D1ED; 
-	width: 100%;
 }

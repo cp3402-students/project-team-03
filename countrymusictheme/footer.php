@@ -17,7 +17,7 @@
 		<div class="site-footer-coloumn">
 			<?php dynamic_sidebar('footer-section-2'); ?>
 		</div><!-- .site-footer-coloumn -->
-		<div class="site-footer-coloumn">
+		<div class="site-footer-coloumn-long">
 			<?php dynamic_sidebar('footer-section-3'); ?>
 		</div><!-- .site-footer-coloumn -->
 	</footer><!-- #colophon -->

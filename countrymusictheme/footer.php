@@ -10,7 +10,21 @@
  */
 
 ?>
-
+	<footer id="colophon" class="site-footer">
+		<div class="site-info">
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'countrymusictheme' ) ); ?>">
+				<?php
+				/* translators: %s: CMS name, i.e. WordPress. */
+				printf( esc_html__( 'Powered By Wordpress' ), 'WordPress' );
+				?>
+			</a>
+			<span class="sep"> | </span>
+				<?php
+				/* translators: 1: Theme name, 2: Theme author. */
+				bloginfo( 'name'); ;
+				?>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'countrymusictheme' ) ); ?>">

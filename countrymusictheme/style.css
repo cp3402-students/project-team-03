@@ -852,6 +852,23 @@ body{
 	margin: 1.5em 0 0;
 }
 
+.entry-meta {
+	display: none
+}
+
+.entry-footer {
+	display: none
+}
+
+.nav-subtitle {
+	display: none
+}
+
+.nav-title {
+	display: none
+
+}
+
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
@@ -859,6 +876,13 @@ body{
 
 /* Comments
 --------------------------------------------- */
+
+.comments-area {
+	display: block;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
 .comment-content a {
 	word-wrap: break-word;
 }
@@ -866,6 +890,11 @@ body{
 .bypostauthor {
 	display: block;
 }
+
+.comment-reply-title {
+	display: block;
+}
+
 
 /* Widgets
 --------------------------------------------- */

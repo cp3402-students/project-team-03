@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
 /*!
 Theme Name: CountryMusicTheme
 Theme URI: http://underscores.me/
@@ -413,6 +414,7 @@ textarea {
 	color: #404040;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	font-size: 1rem;
+	font-weight: bold;
 	line-height: 1.5;
 }
 
@@ -679,16 +681,21 @@ textarea {
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	position: absolute;
-	padding-right: 15px;
+	display: block;
+	background-color: #B8D1ED;
 	top: 100%;
 	left: -999em;
 	z-index: 99999;
 }
 
 .main-navigation ul ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	display: block;
+	background-color: #B8D1ED;
+	top: 100%;
 	left: -999em;
-	padding-right: 15px;
-	top: 0;
+	z-index: 99999;
 }
 
 .main-navigation ul ul li:hover > ul,
@@ -731,11 +738,33 @@ textarea {
 	font-weight: 500;
 }
 
+.menu-item-has-children > a:after {
+	color: #111;
+   	content: ' \25BE';
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
 }
+
+.menu-toggle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	visibility: hidden;
+	color: #111;
+	padding-bottom: 30px;
+}
+
+.menu-toggle:after {
+	display: block;
+	visibility: visible;
+	content: ' \2630';
+	font-size: 2rem;
+}
+
 
 @media screen and (min-width: 37.5em) {
 

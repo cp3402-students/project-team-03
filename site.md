@@ -11,6 +11,7 @@ To add static pages to the site, follow these steps:
 
 By following these steps, you can seamlessly incorporate static pages into your website's navigation menu.
 
+
 Posts
 
 To add posts to the website, the following process is applicable specifically for monthly magazines:
@@ -21,6 +22,7 @@ To add posts to the website, the following process is applicable specifically fo
 4. Further classify the posts by including the specific year and month corresponding to the magazine publication.
 
 By adhering to this process, your posts will be seamlessly integrated into the monthly magazines webpage, maintaining appropriate categorization based on the corresponding year and month.
+
 
 Plugins
 1.	WP Map Block – The WP Map Block plugin is used within the footer to display where the club is located. This is displayed on every page.

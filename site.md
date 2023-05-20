@@ -25,7 +25,7 @@ By adhering to this process, your posts will be seamlessly integrated into the m
 
 
 Plugins
-1.	WP Map Block – The WP Map Block plugin is used within the footer to display where the club is located. This is displayed on every page.
+1.	Map Block for Google Maps – The Map Block for Google Maps plugin is used within the footer to display where the club is located. This is displayed on every page.
 2.	Timeline Block – The Timeline Block plugin is used within the About Us section of the website to display pictures and text about the history of the club. 
 3.	Advanced Post Block – The Advanced Post Block plugin allows for better and easier formatting of the blocks displayed on the Monthly Magazine page. 
 4.	Image Slider Block – The Image Slider Block plugin allows for better and easier formatting of the images displayed on the Photo Gallery page.

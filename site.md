@@ -1,4 +1,5 @@
 Pages
+
 To add static pages to the site, follow these steps:
 
 1. Create your desired page using the regular process.
@@ -11,6 +12,7 @@ To add static pages to the site, follow these steps:
 By following these steps, you can seamlessly incorporate static pages into your website's navigation menu.
 
 Posts
+
 To add posts to the website, the following process is applicable specifically for monthly magazines:
 
 1. Only utilize this process for monthly magazines; other types of posts may not follow the same procedure.
